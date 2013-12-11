@@ -1,0 +1,399 @@
+
+/*
+ *
+ *
+ *start of albums.css
+ *
+ *
+*/
+#albums-container .clearboth{
+	height: 1px;
+}
+
+#albums-container .albums-wrapper{
+	background: #FFFFFF;
+}
+
+#albums-container .albums-inner-wrapper{
+	background: #FFFFFF;
+	padding-bottom: 10px;
+	margin-right: 10px;
+}
+
+#albums-container .album-wrapper{
+	border: 1px solid #E9EAED;
+	float:left;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+#albums-container .album-wrapper .album-cover{
+	text-align:center;
+	display: table-cell;
+	vertical-align: middle;
+	width:135px;
+	height:135px;
+	background: #CCCCCC;
+}
+
+#albums-container .album-wrapper .album-details{
+	float:left;
+	width:135px;
+	margin-top: 10px;
+}
+
+#albums-container .album-cover img{
+	border:0px;
+	max-width:135px;
+	max-height:135px;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+#albums-container .album-details table.table {
+	border: 0px;
+	box-shadow: 0px 0px 0px 0px;
+}
+
+#albums-container table.table td.album-name-label,
+#albums-container table.table td.album-name,
+#albums-container table.table td.album-photos-count-label,
+#albums-container table.table td.album-photos-count{
+	padding: 0px;
+	border: 0px;
+}
+
+#albums-container table.table td.album-name-label{
+	width: 35px;
+	text-align: left;
+}
+#albums-container table.table td.album-photos-count-label{
+	width: 55px;
+	text-align: left;
+	font-size: 11px;
+}
+
+#albums-container table.table td.album-title{
+	text-align: left;
+	overflow: hidden;
+}
+#albums-container table.table td.album-photos-count{
+	text-align: left;
+	font-size: 11px;
+}
+
+#albums-container .album-top-overlay{
+	position: absolute;
+	background: black;
+	width: 160px;
+	height: 200px;
+	margin-left: -10px;
+	margin-top: -10px;
+	z-index: 3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+	filter: alpha(opacity=0); /* IE 5-7 */
+	-moz-opacity: 0; /* Netscape */
+	-khtml-opacity: 0; /* Safari 1.x */
+	opacity: 0;/* Good browsers */
+}
+
+#albums-container .album-top-overlay:hover{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* IE 8 */
+	filter: alpha(opacity=80); /* IE 5-7 */
+	-moz-opacity: 0.80; /* Netscape */
+	-khtml-opacity: 0.80; /* Safari 1.x */
+	opacity: 0.80;/* Good browsers */
+	cursor: pointer;
+}
+
+#albums-container img.album-delete-button,
+#albums-container img.album-edit-button{
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#albums-container .top-overlay-album-details{
+	background: transparent!important;
+	color: #FFFFFF;
+	font-size: 11px;
+	padding: 0px;
+	margin: 5px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#albums-container .top-overlay-album-details tr,
+#albums-container .top-overlay-album-details tr:hover{
+	background: transparent!important;
+}
+
+#albums-container .top-overlay-album-details .table,
+#albums-container .top-overlay-album-details .table td,
+#albums-container .top-overlay-album-details .table th,
+#albums-container .top-overlay-album-details .table tr{
+	background: transparent!important;
+	font-size: 11px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	box-shadow: 0px 0px 0px 0px;
+}
+
+#albums-container .top-overlay-album-details .table td.label{
+	width: 65px;
+	vertical-align: top;
+}
+
+#albums-container .top-overlay-album-details .table td.value{
+	vertical-align: top;
+	overflow: hidden;
+}
+
+/*
+ *
+ *
+ *start of album.css
+ *
+ *
+*/
+#album-container .cover_image {
+	text-align: center;
+	margin: 0 auto;
+	width: 210px;
+	background: #cccccc;
+}
+
+#album-container img.cover_image {
+	max-height: 135px;
+	max-width: 135px;
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#album-container #cover_image_wrapper {
+	height: 135px;
+	width: 210px;
+	text-align: center;
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#album-container .photos-list-wrapper{
+	border: 1px solid #CCCCCC;
+	background-color: #FCFCFC;
+	padding: 8px 10px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	min-height: 150px;
+}
+
+#album-container #album-photos-note{
+	font-size: 11px;
+}
+
+#album-container #album-photos-label{
+	width: 100%;
+}
+
+#album-container .line-divider-1{
+	height: 1px;
+	background: #CCCCCC;
+}
+
+#album-container .uploaded-photo-item{
+	margin-right: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid #E9EAED;
+	max-width: 135px;
+	float: left;
+}
+
+#album-container .uploaded-photo-item div.photo-wrapper{
+	width: 135px;
+	height: 135px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	background: #CCCCCC;
+}
+
+#album-container .uploaded-photo-item div.photo-text-wrapper{
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+#album-container .uploaded-photo-item  div.photo-wrapper img{
+	max-width: 135px;
+	max-height: 135px;
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#album-container .photo-item-top-overlay{
+	position: absolute;
+	background: black;
+	width: 155px;
+	height: 185px;
+	margin-left: -10px;
+	margin-top: -10px;
+	z-index: 3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+	filter: alpha(opacity=0); /* IE 5-7 */
+	-moz-opacity: 0; /* Netscape */
+	-khtml-opacity: 0; /* Safari 1.x */
+	opacity: 0;/* Good browsers */
+}
+
+#album-container .photo-item-top-overlay:hover{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* IE 8 */
+	filter: alpha(opacity=80); /* IE 5-7 */
+	-moz-opacity: 0.80; /* Netscape */
+	-khtml-opacity: 0.80; /* Safari 1.x */
+	opacity: 0.80;/* Good browsers */
+	cursor: pointer;
+}
+
+#album-container img.remove-upload-photo-item,
+#album-container img.edit-upload-photo-item{
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+#album-container img#remove-cover-image-item{
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+#album-container #album-cover-top-overlay{
+	position: absolute;
+	background: black;
+	width: 210px;
+	height: 135px;
+	z-index: 3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+	filter: alpha(opacity=0); /* IE 5-7 */
+	-moz-opacity: 0; /* Netscape */
+	-khtml-opacity: 0; /* Safari 1.x */
+	opacity: 0;/* Good browsers */
+}
+
+#album-container #album-cover-top-overlay.hover{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* IE 8 */
+	filter: alpha(opacity=80); /* IE 5-7 */
+	-moz-opacity: 0.80; /* Netscape */
+	-khtml-opacity: 0.80; /* Safari 1.x */
+	opacity: 0.80;/* Good browsers */
+	cursor: pointer;
+}
+
+#album-container .top-overlay-photo-details{
+	background: transparent!important;
+	color: #FFFFFF;
+	font-size: 11px;
+	padding: 0px;
+	margin: 5px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#album-container .top-overlay-photo-details tr,
+#album-container .top-overlay-photo-details tr:hover{
+	background: transparent!important;
+}
+
+#album-container .top-overlay-photo-details .table,
+#album-container .top-overlay-photo-details .table td,
+#album-container .top-overlay-photo-details .table th,
+#album-container .top-overlay-photo-details .table tr{
+	background: transparent!important;
+	font-size: 11px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	box-shadow: 0px 0px 0px 0px;
+}
+
+#album-container .top-overlay-photo-details .table td.label{
+	width: 65px;
+	vertical-align: top;
+}
+
+#album-container .top-overlay-photo-details .table td.value{
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+/*
+ *
+ *
+ *start of photo.css
+ *
+ *
+*/
+#photo-container .center{
+	text-align: center;
+}
+
+#photo-container .form-first-col{
+	vertical-align: top;
+}
+
+#photo-container #published-info .label{
+	width: 95px;
+}
+
+#photo-container #published-info .inputtext{
+	width: 180px;
+}
+
+#photo-container #published-info select{
+	width: 200px;
+}
+
+#photo-container .photo-thumb-wrapper{
+	width: 200px;
+	height: 154px;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+	background: #CCCCCC;
+}
+
+#photo-container .photo-thumb-wrapper img{
+	max-width: 135px;
+	max-height: 135px;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+	margin: 0 auto;
+}
+
+#photo-container .img-photo-wrapper{
+	width: 500px;
+	height: 500px;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+	margin: 0 auto;
+	background: #CCCCCC;
+}
+
+#photo-container .img-photo{
+	max-width: 480px;
+	max-height: 480px;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+	margin: 0 auto;
+}

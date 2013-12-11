@@ -1,0 +1,51 @@
+/*!
+ * jQuery UI CSS Framework 1.10.3
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming
+ */
+@import "jquery.ui.base.css";
+@import "jquery.ui.theme.css";
+
+  .ui-tooltip, .icon-tools:after {
+    background: white;
+    border: 2px solid white;
+  }
+  .ui-tooltip {
+    padding: 5px 10px;
+    color: black;
+    /*font: bold 14px "Helvetica Neue", Sans-Serif;*/
+    box-shadow: 0 0 7px black;
+	font-family: 'avenirroman';
+	font-size:12px;
+  }
+  .icon-tools {
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+
+
+  }
+  .icon-tools.top {
+  }
+  .icon-tools.left {
+    left: 20%;
+  }
+  .icon-tools:after {
+    content: "";
+    position: absolute;
+    box-shadow: 6px 5px 9px -9px black;
+	/*
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+	*/
+  }
+  .icon-tools.top:after {
+  }

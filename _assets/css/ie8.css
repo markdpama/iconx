@@ -1,0 +1,29 @@
+#header{
+	min-height: 100px;
+	margin: 50px 5px 20px 5px;
+	position: relative;
+}
+#header a{
+	border:none;
+	text-decoration:none;
+}
+#footer{
+	margin:630px 5px 0 5px;
+	position:relative;
+}
+#footer > small{
+	font-size:1.2em;
+	line-height:30px;
+	color:#000000;
+	float:right;
+}
+#footer #footer-social{
+	float:left;
+	margin-bottom:10px;
+}
+
+#mainpage-mos{
+	padding:0;
+	margin-top:50px;
+	position:relative;
+}

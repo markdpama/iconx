@@ -1,0 +1,38 @@
+#server-report{
+	border: 0px none; 
+	overflow: hidden;
+	margin: 0px auto;
+	height: 100%;
+}
+#server-report iframe{
+	border: 0px none; 
+	margin-left: 0px; 
+	height: 480px; 
+	margin-top:0px; 
+	width: 100%;
+}
+p.text{
+	margin:0px;
+	padding:0px 10px;
+	font-size:12px;
+}
+
+@-moz-document url-prefix() { 
+	#server-report{
+		border: 0px none; 
+		overflow: hidden;
+		margin: 0px auto;
+		height: 480px;
+	}
+	#server-report iframe{
+		border: 0px none; 
+		margin-left: 0px; 
+		height: 480px; 
+		margin-top:0px; 
+		width: 100%;
+	}
+}
+
+a.inputbutton{
+	height: 18px;
+}
