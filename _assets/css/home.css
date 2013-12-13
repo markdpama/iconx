@@ -797,7 +797,7 @@ but you could also use a gif to better handle ie8*/
 
 /* CAN BE CHANGED FOR LARGER/SMALLER PLACEMENT FOR TITLE*/
 #kenburns-description{
-	-webkit-transform: translate3d(0,0,0)
+	-webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	-o-transform: translate3d(0,0,0);
 	-ms-transform: translate3d(0,0,0);
@@ -1689,6 +1689,7 @@ to       {  z-index:20; -o-transform: rotateY(0deg); }
 	#kenburns-slideshow {
 		-webkit-mask-image: url(../images/masked-ken-burn-mobile.png);
 	}
+	#slide-title a {font-size:16px}
 		
 }
 @media screen and (min-width: 200px) and (max-width: 299px) {
